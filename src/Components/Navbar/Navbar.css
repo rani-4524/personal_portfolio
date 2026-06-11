@@ -26,17 +26,19 @@
     height: 20px;
     width: 80px;
 }
-.nav-connect{
-    padding: 20px 40px;
-    border-radius: 50px;
-    background: linear-gradient(267deg, #DA7C25 0.36% , #B923E1 102.06%);
-    font-size: 22px;
+.nav-connect {
+    padding: 12px 24px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #c026d3, #f97316);
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
     cursor: pointer;
-    transition: 0.5s;
+    transition: transform 0.3s ease;
 }
 
-.nav-connect:hover{
-    transform: scale(1.05);
+.nav-connect:hover {
+    transform: translateY(-3px);
 }
 .nav-menu li{
     display: flex;
