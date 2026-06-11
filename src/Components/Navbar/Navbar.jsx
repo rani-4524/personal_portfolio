@@ -30,7 +30,7 @@ const Navbar =()=>{
                 <li><a className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("contact")}>Contact</p></a>{menu==='contact'?<img src={underline} alt=""/>:<></>}</li>
             </ul>
             <div className="nav-connect">
-               <a className='anchor-link' offset={50} href='#contact'>Contac with me</a>
+               <a className='anchor-link' offset={50} href='#contact'>Contact with me</a>
             </div>
         </div>
     )
